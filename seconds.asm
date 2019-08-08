@@ -1,12 +1,16 @@
-############################################################################
-#William Archbold 
-#CSC 225 Computer Architecture and Assembly Language
-#Homework 2 based on HelloWorld.s that came with Qtspim 2019.01.31
-#Write a program that runs on SPIM that allows the user to enter the number of hours, 
-#minutes and seconds and then prints out the total time in seconds. 
-#Name the source code file “seconds.asm”.
-############################################################################
-        .data
+#****************************
+# William Archbold
+# January 31 2019
+# CSC 225 Computer Architecture and Assembly Language
+#****************************
+
+#----------------------------------------------------------------------------------------------------
+# Homework 2
+# Write a program that runs on SPIM that allows the user to enter the number of hours, minutes and 
+# seconds and then prints out the total time in seconds. Name the source code file “seconds.asm”.
+#----------------------------------------------------------------------------------------------------
+        
+		.data
 msg:   	.asciiz "Enter hours: "    #.asciiz tells assembler to write a c style string with null termination
 msg2:	.asciiz "Enter minutes: "
 msg3:	.asciiz "Enter seconds: "
